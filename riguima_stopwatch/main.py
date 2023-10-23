@@ -83,6 +83,10 @@ class StopwatchApp(App):
             timers.last().remove()
 
 
-if __name__ == '__main__':
+def main():
     app = StopwatchApp()
     app.run()
+
+
+if __name__ == '__main__':
+    main()
